@@ -1,0 +1,33 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Lightron: Web Server",
+        "description": "Built a web server that is optimized for hosting static websites..",
+        "image": "/Lightron_4.png",
+        "link": "https://youtu.be/VOv4adOb-q8?si=Kqogqa1ZrXsxh-PR"
+      },
+      {
+        "id": 2,
+        "title": "Code Kitchen",
+        "description": "Code Kitchen is the platform that allows users to solve algorithmic questions.",
+        "image": "/logo1.png",
+        "link": "https://youtu.be/FA9o9t9muI0?si=kzd3DIXWG1fp3IG_" 
+      },
+      {
+        "id": 3,
+        "title": "Find-Mate",
+        "description": "Find-Mate helps people find localities and match with roommates by interests and budget",
+        "image": "/find-mate-logo.jpg",
+        "link": ""
+      },
+      {
+        "id": 4,
+        "title": "Taru Foundation",
+        "description": "Developed an E-commerce website for a nonprofit organization called Taru Foundation, as part of the Code for Good Hackathon hosted by JPMorgan Chase in 2022.",
+        "image": "/taru-foundation.png",
+        "link": ""
+      }
+    ]
+  }
+  
