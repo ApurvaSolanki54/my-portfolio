@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import dynamic from 'next/dynamic'
+//import dynamic from 'next/dynamic'
 
 const StickyScroll = ({
   content,
@@ -12,11 +12,13 @@ const StickyScroll = ({
   content: {
     title: string;
     description: Array<string>;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     content?: React.ReactNode | any;
   }[];
   contentClassName?: string;
 }) => {
   const [activeCard, setActiveCard] = React.useState(0);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const ref = useRef<any>(null);
   const { scrollYProgress } = useScroll({
     // uncomment line 22 and comment line 23 if you DONT want the overflow container and want to have it change on the entire page scroll
@@ -85,7 +87,7 @@ const StickyScroll = ({
               >
                 {item.title}
               </motion.h2>
-              <motion.p
+              <motion.div
                 initial={{
                   opacity: 0,
                 }}
@@ -109,7 +111,7 @@ const StickyScroll = ({
                   `}</style>
                 </ul>
                 {/* {item.description} */}
-              </motion.p>
+              </motion.div>
             </div>
           ))}
           <div className="h-40" />
@@ -128,5 +130,5 @@ const StickyScroll = ({
   );
 };
 
-
-export default dynamic(() => Promise.resolve(StickyScroll), { ssr: false });
+export default StickyScroll
+//export default dynamic(() => Promise.resolve(StickyScroll), { ssr: false });

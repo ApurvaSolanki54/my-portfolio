@@ -1,3 +1,4 @@
+'use client'
 import EducationsSection from "@/components/EducationsSection";
 import HeroSection from "@/components/HeroSection";
 import SkillsSection from "@/components/SkillsSection";
