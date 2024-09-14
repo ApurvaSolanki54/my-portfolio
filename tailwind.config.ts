@@ -54,7 +54,18 @@ const config: Config = {
       },
     },
   },
-  plugins: [addVariablesForColors, addSvgPatterns],
+  plugins: [addVariablesForColors, addSvgPatterns, function ({ addUtilities }: any) {
+    addUtilities({
+      '.scrollbar-hide': {
+        /* For Chrome, Safari, and Edge */
+        '-webkit-overflow-scrolling': 'touch',
+        'scrollbar-width': 'none',
+        '&::-webkit-scrollbar': {
+          display: 'none',
+        },
+      },
+    });
+  },],
 };
 
 function addVariablesForColors({ addBase, theme }: any) {

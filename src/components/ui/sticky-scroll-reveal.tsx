@@ -47,6 +47,7 @@ const StickyScroll = ({
     "var(--slate-900)",
     "var(--black)",
     "var(--neutral-900)",
+    "var(--sky-950)"
   ];
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const linearGradients = [
@@ -68,7 +69,7 @@ const StickyScroll = ({
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
-      className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10"
+      className="h-[30rem] overflow-y-auto scroll-smooth flex justify-center relative space-x-10 rounded-md p-10 scrollbar-hide"
       ref={ref}
     >
       
