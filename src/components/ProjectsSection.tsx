@@ -73,7 +73,7 @@ const ProjectsSection = () => {
   return (
     <div>
       <div className='text-center bg-gray-900'>
-        <p className='py-5 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl'>Education</p>
+        <p className='py-5 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl'>PROJECTS</p>
       </div>
       <StickyScrollReveal content={projects}/>
     </div>
