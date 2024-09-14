@@ -12,7 +12,7 @@ const ProjectsSection = () => {
             content: (
                 <div className="h-full w-full  flex items-center justify-center text-white">
                     <Image
-                        src="/lightron_4.png"
+                        src="/Lightron_4.png"
                         width={300}
                         height={300}
                         className="h-full w-full object-cover"
