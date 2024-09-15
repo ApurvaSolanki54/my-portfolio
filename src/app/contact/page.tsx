@@ -25,7 +25,7 @@ export default function Page() {
         className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
       >
         <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
-            Contact us
+            Contact me
         </h2>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
           <button onClick={()=>handleCopy("+91 9326739052")} className="px-4 py-2  text-white ">
