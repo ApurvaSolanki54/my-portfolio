@@ -26,8 +26,8 @@ const ExperienceSection = () => {
     ];
     
     return (
-        <div className='p-12 bg-gray-900 w-full h-full relative'>
-            <BackgroundBeams />
+        <div className='p-12 bg-neutral-900 w-full h-full relative'>
+            {/* <BackgroundBeams /> */}
             <div className='max-w-7xl mx-auto px-4 sm:px-6'>
                 <div className='text-center'>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">CO-CURRICULAR ACTIVITY & EXPERIENCE</p>

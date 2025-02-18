@@ -1,5 +1,5 @@
 'use client'
-import EducationsSection from "@/components/EducationsSection";
+// import EducationsSection from "@/components/EducationsSection";
 import HeroSection from "@/components/HeroSection";
 import SkillsSection from "@/components/SkillsSection";
 import HackathonsSections from "@/components/HackathonsSections";
@@ -13,7 +13,7 @@ export default function Home() {
       {/* <h1 className="dark:text-white text-2xl text-center">Chai aur code</h1> */}
       <HeroSection/>
       <EducationsSectionNew/>
-      <EducationsSection/>
+      {/* <EducationsSection/> */}
       <ProjectsSection/>
       <HackathonsSections/>
       <ExperienceSection/>
