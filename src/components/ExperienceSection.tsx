@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import { HoverEffect } from "@/components/ui/card-hover-effect";
-import { BackgroundBeams } from '@/components/ui/background-beams';
 
 const ExperienceSection = () => {
     const experience = [
