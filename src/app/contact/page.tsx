@@ -45,6 +45,9 @@ export default function Page() {
           <button className="px-4 py-2  text-white ">
             <Link href="https://www.linkedin.com/in/apurva-solanki-8a4556201/" target="_blank"> LinkedIn </Link>
           </button>
+          <button className="px-4 py-2  text-white ">
+            <Link href="https://x.com/SolankiApurva54" target="_blank"> Twitter(X) </Link>
+          </button>
         </div>
       </Vortex>
     </div>
