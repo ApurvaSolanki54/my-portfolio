@@ -17,7 +17,18 @@ const ExperienceSection = () => {
             title: 'HDFC ERGO',
             role: 'Software Developer Intern',
             description:
-                ['Developed a script to read data from XLSX files and generate corresponding SQL queries and JSON data.', 'Built a logger for the vehicle insurance API, enhancing error tracking and system monitoring', 'Developed middleware to integrate Sentry with an Express server, allowing for detailed logging of errors, as well as tracking of requests and responses.', 'Hardened the security of API by designing middleware to check the host parameter in incoming requests', 'Secured claim investigation and settlement process by developing a class for encryption & decryption'],
+                // [
+                //     'Developed a script to read data from XLSX files and generate corresponding SQL queries and JSON data.', 
+                //     'Built a logger for the vehicle insurance API, enhancing error tracking and system monitoring', 
+                //     'Developed middleware to integrate Sentry with an Express server, allowing for detailed logging of errors, as well as tracking of requests and responses.', 
+                //     'Hardened the security of API by designing middleware to check the host parameter in incoming requests', 'Secured claim investigation and settlement process by developing a class for encryption & decryption'
+                // ],
+                [
+                    'Automated manual data insertion by developing an API to store data from XLSX files into the database and saving 2 hours of manual work.',
+                    'Developed a cron job to send daily notifications to active users in batches of 100 users simultaneously.',
+                    'Engineered a custom logging system that stores logs in a database, improving troubleshooting efficiency.',
+                    'Implemented Apple OAuth integration to streamline the client onboarding experience.'
+                ],
             
             date: 'June 2024 - Present',
             location: "Mumbai, Maharashtra",
